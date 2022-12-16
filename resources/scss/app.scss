@@ -75,7 +75,7 @@ footer {
 
     .main_footer {
         padding: 3rem 0;
-        background-image: url(./assets/img/footer-bg.jpg);
+        background-image: url(../images/footer-bg.jpg);
 
         .container {
             position: relative;
@@ -139,11 +139,20 @@ footer {
             .social {
                 display: flex;
                 gap: 1rem;
+                align-items: center;
 
                 span {
                     color: $primary_color;
                     font-weight: bold;
+                }
 
+                div {
+                    background-color: $dark-light;
+                    text-align: center;
+                    padding: 0.5rem;
+                    height: 2.5rem;
+                    aspect-ratio: 1;
+                    border-radius: 50%;
                 }
             }
         }

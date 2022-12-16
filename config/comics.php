@@ -236,5 +236,134 @@ return [
             'image' => 'resources/images/buy-dc-power-visa.svg'
         ],
 
+    ],
+    'links' => [
+        [
+            'title' => 'dc comics',
+            'link' => [
+                [
+                    'href' => '#',
+                    'text' => 'Characters'
+                ],
+                [
+                    'href' => '#',
+                    'text' => 'Comics'
+                ],
+                [
+                    'href' => '#',
+                    'text' => 'Movies'
+                ],
+                [
+                    'href' => '#',
+                    'text' => 'Tv'
+                ],
+                [
+                    'href' => '#',
+                    'text' => 'Games'
+                ],
+                [
+                    'href' => '#',
+                    'text' => 'Videos'
+                ],
+                [
+                    'href' => '#',
+                    'text' => 'News'
+                ]
+
+            ]
+        ],
+        [
+            'title' => 'shop',
+            'link' => [
+                [
+                    'href' => '#',
+                    'text' => 'Shop Dc'
+                ],
+                [
+                    'href' => '#',
+                    'text' => 'Shop Dc Collectibles'
+                ],
+            ]
+        ]
+    ],
+    'linksTwo' => [
+        [
+            'title' => 'dc',
+            'link' => [
+                [
+                    'href' => '#',
+                    'text' => 'lorem lorem'
+                ],
+                [
+                    'href' => '#',
+                    'text' => 'lorem lorem'
+                ],
+                [
+                    'href' => '#',
+                    'text' => 'lorem lorem'
+                ],
+                [
+                    'href' => '#',
+                    'text' => 'lorem lorem'
+                ],
+                [
+                    'href' => '#',
+                    'text' => 'lorem lorem'
+                ],
+                [
+                    'href' => '#',
+                    'text' => 'lorem lorem'
+                ],
+                [
+                    'href' => '#',
+                    'text' => 'lorem lorem'
+                ],
+                [
+                    'href' => '#',
+                    'text' => 'lorem lorem'
+                ],
+                [
+                    'href' => '#',
+                    'text' => 'lorem lorem'
+                ],
+                [
+                    'href' => '#',
+                    'text' => 'lorem lorem'
+                ],
+                [
+                    'href' => '#',
+                    'text' => 'lorem lorem'
+                ],
+
+            ]
+        ]
+    ],
+    'sities' => [
+        [
+            'title' => 'sities',
+            'link' => [
+                [
+                    'href' => '#',
+                    'text' => 'lorem lorem'
+                ],
+                [
+                    'href' => '#',
+                    'text' => 'lorem lorem'
+                ],
+                [
+                    'href' => '#',
+                    'text' => 'lorem lorem'
+                ],
+                [
+                    'href' => '#',
+                    'text' => 'lorem lorem'
+                ],
+                [
+                    'href' => '#',
+                    'text' => 'lorem lorem'
+                ]
+            ]
+        ]
+
     ]
 ];

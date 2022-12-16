@@ -47,3 +47,105 @@ header {
         }
     }
 }
+
+footer {
+
+
+    .header_footer {
+        background-color: $primary_color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        padding: 1rem;
+        z-index: 99;
+        position: relative;
+
+        img {
+            width: 50px;
+            padding: 0.25rem;
+        }
+
+        div {
+            display: flex;
+            align-items: center;
+            margin: 1rem;
+        }
+    }
+
+    .main_footer {
+        padding: 3rem 0;
+        background-image: url(./assets/img/footer-bg.jpg);
+
+        .container {
+            position: relative;
+
+            .logo_bg {
+                position: absolute;
+                right: 1rem;
+                top: -10rem;
+                bottom: -10rem;
+
+                img {
+
+                    height: 600px;
+                }
+            }
+
+            .content {
+                width: 30%;
+                display: flex;
+                gap: 1rem;
+
+                .footer_title {
+                    padding: 0.5rem 0;
+                    color: $light;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1.2rem;
+                }
+
+                .footer_link {
+                    font-size: 0.75rem;
+                    color: $dark-light;
+                    display: block;
+                    text-decoration: none;
+                    padding: 0.25rem 0;
+                }
+            }
+        }
+    }
+
+    .footer_footer {
+        background-color: $secondary_color;
+        z-index: 99;
+        position: relative;
+        text-transform: uppercase;
+        padding: 2rem 0;
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            button {
+                padding: 0.5rem;
+                border: 2px solid $primary_color;
+                background-color: transparent;
+                text-transform: uppercase;
+                color: $light;
+            }
+
+            .social {
+                display: flex;
+                gap: 1rem;
+
+                span {
+                    color: $primary_color;
+                    font-weight: bold;
+
+                }
+            }
+        }
+    }
+}

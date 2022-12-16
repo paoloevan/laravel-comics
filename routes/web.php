@@ -22,5 +22,5 @@ Route::get('/', function () {
 Route::get('/action-comics', function () {
     $comics_list = config('comics');
 
-    return view('actions', $comics_list);
+    return view('0', $comics_list);
 })->name('actions');

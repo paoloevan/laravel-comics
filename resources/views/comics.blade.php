@@ -10,12 +10,16 @@
 
 <div class="container">
     <div class="row row-cols-6">
-        @foreach ($comics as $comic)
+        @foreach ($comics as $key => $comic)
         <div class=" my_card">
             <div class="card_image">
+                @if ($key === 0)
                 <a href="{{route('actions')}}">
                     <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
                 </a>
+                @else
+                <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
+                @endif
             </div>
             <div class="card_title">
                 {{$comic['title']}}

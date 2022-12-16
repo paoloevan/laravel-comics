@@ -8,16 +8,16 @@
         <img src="{{ Vite::asset('resources/images/dc-logo.png')}}" alt="">
 
         <div class="navbar">
-            <a href="">characters</a>
-            <a href="">comics</a>
-            <a href="">movies</a>
-            <a href="">tv</a>
-            <a href="">games</a>
-            <a href="">collectibles</a>
-            <a href="">videos</a>
-            <a href="">fans</a>
-            <a href="">news</a>
-            <a href="">shop</a>
+            <a class="" href="">characters</a>
+            <a class="{{Route::currentRouteName() === 'comics' ? 'active' : ''}}" href="">comics</a>
+            <a class="" href="">movies</a>
+            <a class="" href="">tv</a>
+            <a class="" href="">games</a>
+            <a class="" href="">collectibles</a>
+            <a class="" href="">videos</a>
+            <a class="" href="">fans</a>
+            <a class="" href="">news</a>
+            <a class="" href="">shop</a>
         </div>
 
         <div class="search">

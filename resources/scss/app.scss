@@ -4,10 +4,10 @@
 
 
 header {
-    padding: 1rem;
 
     .container {
 
+        padding: 1rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -43,6 +43,98 @@ header {
                 border: none;
                 border-bottom: 2px solid $primary_color;
                 text-align: end;
+            }
+        }
+    }
+}
+
+// jumbotron
+
+main {
+    .jumbotron {
+        height: 350px;
+        width: 100%;
+        position: relative;
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: top;
+        }
+
+        .current {
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            color: $light;
+            background-color: $primary_color;
+            position: absolute;
+            padding: 0.5rem 1rem;
+            font-weight: bold;
+            bottom: -17px;
+            left: 10rem;
+        }
+    }
+}
+
+//main
+
+main {
+    background-color: $secondary_color;
+
+    .load {
+        text-align: center;
+        padding: 4rem 0;
+
+        a {
+            text-transform: uppercase;
+            color: $light;
+            background-color: $primary_color;
+            padding: 0.5rem 3rem;
+            font-weight: bold;
+            cursor: pointer;
+
+        }
+    }
+}
+
+// cards style
+
+main {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 3rem 0;
+
+
+        .my_card {
+
+            .card_image {
+                width: 200px;
+                aspect-ratio: 1;
+                padding: 0.5rem;
+
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: top;
+                    cursor: pointer;
+
+                    &:hover {
+                        filter: opacity(40%);
+                    }
+                }
+            }
+
+            .card_title {
+                color: white;
+                text-transform: uppercase;
+                font-size: 0.75rem;
+                padding: 0.5rem;
+
             }
         }
     }

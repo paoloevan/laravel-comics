@@ -1,12 +1,21 @@
 @extends('layout.app')
 
 @section('content')
+<div class="jumbotron">
+    <img src="{{ Vite::asset('resources/images/jumbotron.jpg')}}" alt="">
+
+    <span class="current">current series</span>
+
+</div>
+
 <div class="container">
     <div class="row row-cols-6">
         @foreach ($comics as $comic)
-        <div class="col">
-            <div class="card_item">
+        <div class=" my_card">
+            <div class="card_image">
                 <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
+            </div>
+            <div class="card_title">
                 {{$comic['title']}}
             </div>
         </div>

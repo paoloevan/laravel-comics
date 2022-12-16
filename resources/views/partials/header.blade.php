@@ -1,5 +1,5 @@
 <header>
-    <div class="header_top text-end text-uppercase">
+    <div class="header_top text-end text-uppercase bg-primary">
         <span>dc power visa</span>
         <span>additional dc site</span>
     </div>

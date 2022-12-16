@@ -9,7 +9,7 @@
 
         <div class="navbar">
             <a class="" href="">characters</a>
-            <a class="{{Route::currentRouteName() === 'comics' ? 'active' : ''}}" href="">comics</a>
+            <a class="{{Route::currentRouteName() === 'comics' ? 'active' : ''}}" href="{{route('comics')}}">comics</a>
             <a class="" href="">movies</a>
             <a class="" href="">tv</a>
             <a class="" href="">games</a>
